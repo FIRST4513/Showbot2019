@@ -1,0 +1,66 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Wiring</title>
+    <style type="text/css" media="screen">
+      table {
+          text-align: left;
+          width: 480px;
+
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+          border-collapse:collapse;
+          border-spacing:0px;
+      }
+      th {
+          border-top: 2px solid black;
+          border-bottom: 2px solid black;
+      }
+      .pound {
+          width: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Wiring</h1>
+                            <h2>PWMs</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Motor</th>
+            <th>Type</th></tr>
+                                                    <tr><td>0</td><td>Drivetrain </td><td>BackRightController</td><td>Talon</td></tr>
+                                                          <tr><td>1</td><td>Drivetrain </td><td>FrontRightController</td><td>Talon</td></tr>
+                                                          <tr><td>2</td><td>Drivetrain </td><td>BackLeftController</td><td>Talon</td></tr>
+                                                          <tr><td>3</td><td>Drivetrain </td><td>FrontLeftController</td><td>Talon</td></tr>
+                                                          <tr><td>4</td><td>Lighting </td><td>LightingController</td><td>Talon</td></tr>
+                                                                                                                                                                                                                                                                                         </table>
+     
+        
+                    <h2>Relays</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Relay</th></tr>
+                                                                                                <tr><td>2</td><td>Pnumatics </td><td>FiringMechanismSpike</td><td></td></tr>
+                                                                                              <tr><td>3</td><td>Horn </td><td>HornSpike</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                     </table>
+    
+                        
+                    <h2>PCM 0</h2>
+        <table><tr>
+            <th class="pound">#</th>
+            <th>Subsystem</th>
+            <th>Solenoid</th></tr>
+                                                                        <tr><td>0</td><td>Pnumatics </td><td>CannonAngleSolenoid Forward </td><td></td></tr>
+                                                                                              <tr><td>1</td><td>Pnumatics </td><td>CannonAngleSolenoid Reverse </td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                             </table>
+                                                                                                                                                                                                                                                    
+                <h2>Compressor</h2>
+    <table><tr>
+    <th class="pound">PCM</th>
+    <th>Subsystem</th>
+    <th>Device</th></tr>
+                                                                  <tr><td>0</td><td>Pnumatics </td><td>Compressor</td><td></td></tr>
+                                                                                                                                                                                                                                                                                                                                                     </table>
+      </body>
+</html>
